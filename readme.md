@@ -153,4 +153,4 @@ The power set *Pow*(A) is the set of all the subsets of A, denoted by $Pow(A)=\{
 
   $\forall A,B, Pow(A\bigcap B)= Pow(A) \bigcap Pow(B)$
   
-  $\exist A,B, Pow(A\bigcup B)\not = Pow(A) \bigcup Pow(B)$
+  $\exists A,B, Pow(A\bigcup B)\not = Pow(A) \bigcup Pow(B)$
