@@ -3,8 +3,8 @@
 <!-- TOC -->
 
 - [1. CSE107 Discrete Mathematics and Statistics](#1-cse107-discrete-mathematics-and-statistics)
-  - [1.1. Numbers Systems and Proof Techniques](#11-numbers-systems-and-proof-techniques)
-    - [1.1.1. Types of Numberss](#111-types-of-numberss)
+  - [1.1. Number Systems and Proof Techniques](#11-number-systems-and-proof-techniques)
+    - [1.1.1. Types of Numbers](#111-types-of-numbers)
     - [1.1.2. Proof Techniques](#112-proof-techniques)
       - [1.1.2.1. Proof by contradiction](#1121-proof-by-contradiction)
       - [1.1.2.2. Proof by induction](#1122-proof-by-induction)
@@ -25,12 +25,15 @@
       - [1.2.6.3. Identity laws](#1263-identity-laws)
       - [1.2.6.4. Distributive laws](#1264-distributive-laws)
       - [1.2.6.5. Complement laws](#1265-complement-laws)
+      - [1.2.6.6. De Morgan's laws](#1266-de-morgans-laws)
+    - [1.2.7. Power set](#127-power-set)
+      - [1.2.7.1. Some laws](#1271-some-laws)
 
 <!-- /TOC -->
 
-## 1.1. Numbers Systems and Proof Techniques
+## 1.1. Number Systems and Proof Techniques
 
-### 1.1.1. Types of Numberss
+### 1.1.1. Types of Numbers
 
 * Natural Numbers
   - **Closed under addition**
@@ -85,11 +88,11 @@ Examples:
 
 ### 1.2.3. Subset
 
-* If **every** element of B is an element of A, then B is the subset of A. Notation: $B\subseteq A$
+* If **every** element of B is an element of A, then B is the subset of A. Notation: $B\subseteq A$.
 
 ### 1.2.4. Equality
 
-If $B\subseteq A$ and $A\subseteq B$, then $A=B$ 
+If $B\subseteq A$ and $A\subseteq B$, then $A=B$.
 
 ### 1.2.5. Operations on sets
 
@@ -129,10 +132,25 @@ First of all, the sets to be operated must have **the same data type**.
 
 #### 1.2.6.3. *Identity laws*
 
-  $A\bigcup \empty=A,A\bigcup U = U, A\bigcap U = A, A\bigcap \empty= \empty$
+  $A\bigcup \emptyset=A,A\bigcup U = U, A\bigcap U = A, A\bigcap \emptyset= \emptyset$
 
 #### 1.2.6.4. **Distributive laws**
 
   $A\bigcap (B \bigcup C)= (A\bigcap B)\bigcup(A\bigcap C), A\bigcup(B\bigcap C)=(A\bigcup B)\bigcap(A\bigcap C)$
 
 #### 1.2.6.5. *Complement laws*
+
+  $A\bigcup \sim A=U, \sim U = \emptyset, \sim(\sim A)= A, A\bigcap \sim A=\emptyset,\sim \emptyset = U$
+
+#### 1.2.6.6. **De Morgan's laws**
+ $\sim (A \bigcup B)= \sim A\bigcap \sim B,\sim (A \bigcap B)= \sim A\bigcup \sim B$
+
+### 1.2.7. Power set
+
+The power set *Pow*(A) is the set of all the subsets of A, denoted by $Pow(A)=\{C|C\subseteq A\}$.
+
+#### 1.2.7.1. Some laws
+
+  $\forall A,B, Pow(A\bigcap B)= Pow(A) \bigcap Pow(B)$
+  
+  $\exist A,B, Pow(A\bigcup B)\not = Pow(A) \bigcup Pow(B)$
