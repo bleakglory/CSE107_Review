@@ -72,18 +72,18 @@ Examples:
 
 ### 1.2.1. Notation
 
-* $B = \{1,3,5\}$
+* $B = \lbrace 1,3,5\rbrace$
 * $\Rightarrow$ $1 \in B, 2 \notin B$
-* For inexplicit set:  $S = \{x | P(x)\}$  e.g. 
-    * $S = \{x|x$ is an odd positive integer$\}$
-    * $C = \{n^2|n$ is an integer$\}$
+* For inexplicit set:  $S = \lbrace x | P(x)\rbrace$  e.g. 
+    * $S = \lbrace x|x$ is an odd positive integer$\rbrace$
+    * $C = \lbrace n^2|n$ is an integer$\rbrace$
 
 ### 1.2.2. Important Sets
 
-* Natural Numbers $N = \{0,1,2…\}$ 
-* Integers $Z = \{…-1,0,1…\}$
-* Positive Integers $Z^+ = \{1,2,3…\}$
-* Rationals $Q = \{\frac{x}{y}|x,y\in Z , y \ne 0\}$
+* Natural Numbers $N = \lbrace0,1,2…\rbrace$
+* Integers $Z = \lbrace …-1,0,1…\rbrace$
+* Positive Integers $Z^+ = \lbrace1,2,3…\rbrace$
+* Rationals $Q = \lbrace\frac{x}{y}|x,y\in Z , y \ne 0\rbrace$
 * Real numbers $R = Z + Q$
 
 ### 1.2.3. Subset
@@ -100,23 +100,23 @@ First of all, the sets to be operated must have **the same data type**.
 
 #### 1.2.5.1. Union
 
-  $A\bigcup B = \{x|x\in A \bigvee x \in B\}$
+  $A\bigcup B = \lbrace x|x\in A \bigvee x \in B\rbrace$
   
 #### 1.2.5.2. Intersection
 
-  $A\bigcap B = \{x|x\in A \bigwedge x \in B\}$
+  $A\bigcap B = \lbrace x|x\in A \bigwedge x \in B\rbrace$
 
 #### 1.2.5.3. Relative complement
   
-  $A-B= \{x|x\in A \bigwedge x \notin B\}$
+  $A-B= \lbrace x|x\in A \bigwedge x \notin B\rbrace$
   
 #### 1.2.5.4. Complement
 
-  $\sim A=\{x\notin A\}$
+  $\sim A=\lbrace x\notin A\rbrace$
 
 #### 1.2.5.5. **Symmetric difference**
 
-  $A\triangle B=\{x|(x\in A \bigwedge x\notin B)\bigvee(x\notin A \bigwedge x\in B)\}$
+  $A\triangle B=\lbrace x|(x\in A \bigwedge x\notin B)\bigvee(x\notin A \bigwedge x\in B)\rbrace$
 
 ### 1.2.6. Algebra of sets
 
@@ -147,7 +147,7 @@ First of all, the sets to be operated must have **the same data type**.
 
 ### 1.2.7. Power set
 
-The power set *Pow*(A) is the set of all the subsets of A, denoted by $Pow(A)=\{C|C\subseteq A\}$.
+The power set *Pow*(A) is the set of all the subsets of A, denoted by $Pow(A)=\lbrace C|C\subseteq A\rbrace$.
 
 #### 1.2.7.1. Some laws
 
