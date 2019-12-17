@@ -5,9 +5,12 @@
 - [1. CSE107 Discrete Mathematics and Statistics](#1-cse107-discrete-mathematics-and-statistics)
   - [1.1. Numbers Systems and Proof Techniques](#11-numbers-systems-and-proof-techniques)
     - [1.1.1. Types of Numberss](#111-types-of-numberss)
-  - [1.2. Proof Techniques](#12-proof-techniques)
-    - [1.2.1. Proof by contradiction](#121-proof-by-contradiction)
-    - [1.2.2. Proof by induction](#122-proof-by-induction)
+    - [1.1.2. Proof Techniques](#112-proof-techniques)
+      - [1.1.2.1. Proof by contradiction](#1121-proof-by-contradiction)
+      - [1.1.2.2. Proof by induction](#1122-proof-by-induction)
+  - [1.2. Set Theory](#12-set-theory)
+    - [1.2.1. Notation](#121-notation)
+    - [1.2.2.](#122)
 
 <!-- /TOC -->
 
@@ -24,9 +27,9 @@
 * Real Numbers
 * Prime Numbers  *质数*
 
-## 1.2. Proof Techniques
+### 1.1.2. Proof Techniques
 
-### 1.2.1. Proof by contradiction
+#### 1.1.2.1. Proof by contradiction
 
 Example: Use proof by contracdition to prove $\sqrt{2}$ is a irrational number:
 
@@ -37,7 +40,7 @@ Example: Use proof by contracdition to prove $\sqrt{2}$ is a irrational number:
 > * Then $x^2 =4w^2$ so$4w^2 =2y^2$, $y^2 =2w^2$ so $y^2$ is even then so is $y$.
 > * This contradicts the fact that x and y are not both even, so 2 being rational, must have been wrong.
 
-### 1.2.2. Proof by induction
+#### 1.1.2.2. Proof by induction
 
 Normal steps:
 
@@ -47,3 +50,13 @@ Normal steps:
 Examples:
 
 * For every natural number $n$, $2^{n+2} + 3^{2n+1}$ is divisible by $7$
+
+## 1.2. Set Theory
+
+### 1.2.1. Notation
+
+$B = \{1,3,5\}$
+
+$\Rightarrow$ $1 \in B, 2 \notin B$
+  
+### 1.2.2.  
