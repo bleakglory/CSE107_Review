@@ -1,35 +1,35 @@
-# 1. CSE107 Discrete Mathematics and Statistics
+# CSE107 Discrete Mathematics and Statistics
 
-<!-- TOC -->
-
-- [1. CSE107 Discrete Mathematics and Statistics](#1-cse107-discrete-mathematics-and-statistics)
-  - [1.1. Number Systems and Proof Techniques](#11-number-systems-and-proof-techniques)
-    - [1.1.1. Types of Numbers](#111-types-of-numbers)
-    - [1.1.2. Proof Techniques](#112-proof-techniques)
-      - [1.1.2.1. Proof by contradiction](#1121-proof-by-contradiction)
-      - [1.1.2.2. Proof by induction](#1122-proof-by-induction)
-  - [1.2. Set Theory](#12-set-theory)
-    - [1.2.1. Notation](#121-notation)
-    - [1.2.2. Important Sets](#122-important-sets)
-    - [1.2.3. Subset](#123-subset)
-    - [1.2.4. Equality](#124-equality)
-    - [1.2.5. Operations on sets](#125-operations-on-sets)
-      - [1.2.5.1. Union](#1251-union)
-      - [1.2.5.2. Intersection](#1252-intersection)
-      - [1.2.5.3. Relative complement](#1253-relative-complement)
-      - [1.2.5.4. Complement](#1254-complement)
-      - [1.2.5.5. Symmetric difference](#1255-symmetric-difference)
-    - [1.2.6. Algebra of sets](#126-algebra-of-sets)
-      - [1.2.6.1. Commutative laws](#1261-commutative-laws)
-      - [1.2.6.2. Associative laws](#1262-associative-laws)
-      - [1.2.6.3. Identity laws](#1263-identity-laws)
-      - [1.2.6.4. Distributive laws](#1264-distributive-laws)
-      - [1.2.6.5. Complement laws](#1265-complement-laws)
-      - [1.2.6.6. De Morgan's laws](#1266-de-morgans-laws)
-    - [1.2.7. Power set](#127-power-set)
-      - [1.2.7.1. Some laws](#1271-some-laws)
-
-<!-- /TOC -->
+- [1.1. Number Systems and Proof Techniques](#11-number-systems-and-proof-techniques)
+  - [1.1.1. Types of Numbers](#111-types-of-numbers)
+  - [1.1.2. Proof Techniques](#112-proof-techniques)
+    - [1.1.2.1. Proof by contradiction](#1121-proof-by-contradiction)
+    - [1.1.2.2. Proof by induction](#1122-proof-by-induction)
+- [1.2. Set Theory](#12-set-theory)
+  - [1.2.1. Notation](#121-notation)
+  - [1.2.2. Important Sets](#122-important-sets)
+  - [1.2.3. Subset](#123-subset)
+  - [1.2.4. Equality](#124-equality)
+  - [1.2.5. Operations on sets](#125-operations-on-sets)
+    - [1.2.5.1. Union](#1251-union)
+    - [1.2.5.2. Intersection](#1252-intersection)
+    - [1.2.5.3. Relative complement](#1253-relative-complement)
+    - [1.2.5.4. Complement](#1254-complement)
+    - [1.2.5.5. Symmetric difference](#1255-symmetric-difference)
+  - [1.2.6. Algebra of sets](#126-algebra-of-sets)
+    - [1.2.6.1. Commutative laws](#1261-commutative-laws)
+    - [1.2.6.2. Associative laws](#1262-associative-laws)
+    - [1.2.6.3. Identity laws](#1263-identity-laws)
+    - [1.2.6.4. Distributive laws](#1264-distributive-laws)
+    - [1.2.6.5. Complement laws](#1265-complement-laws)
+    - [1.2.6.6. De Morgan's laws](#1266-de-morgans-laws)
+  - [1.2.7. Power set](#127-power-set)
+    - [1.2.7.1. Some laws](#1271-some-laws)
+  - [1.2.8. Cardinality of sets](#128-cardinality-of-sets)
+    - [1.2.8.1. Computing the cardinality of sets](#1281-computing-the-cardinality-of-sets)
+  - [1.2.9. Ordered pairs](#129-ordered-pairs)
+    - [1.2.9.1. Catesian plane](#1291-catesian-plane)
+  - [1.2.10. Bit strings of lengs n](#1210-bit-strings-of-lengs-n)
 
 ## 1.1. Number Systems and Proof Techniques
 
@@ -72,23 +72,23 @@ Examples:
 
 ### 1.2.1. Notation
 
-* $B = \lbrace 1,3,5\rbrace$
-* $\Rightarrow$ $1 \in B, 2 \notin B$
-* For inexplicit set:  $S = \lbrace x | P(x)\rbrace$  e.g. 
-    * $S = \lbrace x|x$ is an odd positive integer$\rbrace$
-    * $C = \lbrace n^2|n$ is an integer$\rbrace$
+- $B = \lbrace 1,3,5\rbrace$
+- $\Rightarrow$ $1 \in B, 2 \notin B$
+- For inexplicit set:  $S = \lbrace x | P(x)\rbrace$  e.g. 
+  - $S = \lbrace x|x$ is an odd positive integer$\rbrace$
+  - $C = \lbrace n^2|n$ is an integer$\rbrace$
 
 ### 1.2.2. Important Sets
 
-* Natural Numbers $N = \lbrace0,1,2…\rbrace$
-* Integers $Z = \lbrace …-1,0,1…\rbrace$
-* Positive Integers $Z^+ = \lbrace1,2,3…\rbrace$
-* Rationals $Q = \lbrace\frac{x}{y}|x,y\in Z , y \ne 0\rbrace$
-* Real numbers $R = Z + Q$
+- Natural Numbers $N = \lbrace0,1,2…\rbrace$
+- Integers $Z = \lbrace …-1,0,1…\rbrace$
+- Positive Integers $Z^+ = \lbrace1,2,3…\rbrace$
+- Rationals $Q = \lbrace\frac{x}{y}|x,y\in Z , y \ne 0\rbrace$
+- Real numbers $R = Z + Q$
 
 ### 1.2.3. Subset
 
-* If **every** element of B is an element of A, then B is the subset of A. Notation: $B\subseteq A$.
+- If **every** element of B is an element of A, then B is the subset of A. Notation: $B\subseteq A$.
 
 ### 1.2.4. Equality
 
@@ -143,6 +143,7 @@ First of all, the sets to be operated must have **the same data type**.
   $A\bigcup \sim A=U, \sim U = \emptyset, \sim(\sim A)= A, A\bigcap \sim A=\emptyset,\sim \emptyset = U$
 
 #### 1.2.6.6. **De Morgan's laws**
+
  $\sim (A \bigcup B)= \sim A\bigcap \sim B,\sim (A \bigcap B)= \sim A\bigcup \sim B$
 
 ### 1.2.7. Power set
@@ -153,4 +154,36 @@ The power set *Pow*(A) is the set of all the subsets of A, denoted by $Pow(A)=\l
 
   $\forall A,B, Pow(A\bigcap B)= Pow(A) \bigcap Pow(B)$
   
-  $\exists A,B, Pow(A\bigcup B)\not = Pow(A) \bigcup Pow(B)$
+  $\exists A,B, Pow(A\bigcup B)\ne Pow(A) \bigcup Pow(B)$
+
+### 1.2.8. Cardinality of sets
+
+  For a **finite** set S, the cardinality equals the number of the elements in S, denoted by $|S|$.
+
+#### 1.2.8.1. Computing the cardinality of sets
+
+  If A, B, C are sets then:
+
+> $|A\bigcup B|= |A|+|B|-|A\bigcap B|$
+> 
+> $|A\bigcup B\bigcup C|=|A|+|B|+|C|-|A\bigcap B|-|A\bigcap C|-|B\bigcap C|+|A\bigcap B+\bigcap C|$
+
+  Those above are special cases of **the principle of inclusion and exclusion**.
+
+### 1.2.9. Ordered pairs
+
+Introduced **cartesian product** $A\times B$, the set of consisting all pairs (a,b) with $a\in A \bigwedge b \in B$.
+
+#### 1.2.9.1. *Catesian plane*
+
+Use a cartesian coordinate system to represent pairs of numbers.
+
+### 1.2.10. Bit strings of lengs n
+
+Used to represent the **characteristic vector** of subsets of a set.
+
+e.g. $S=\lbrace1,2,3,4,5\rbrace,A=\lbrace 1,3,5\rbrace, B=\lbrace3,4\rbrace$
+
+- the CV(characteristic vector) of A is {1,0,1,0,1}
+- the CV of B is {0,0,1,1,0}
+  
