@@ -186,7 +186,7 @@ e.g. $S=\lbrace1,2,3,4,5\rbrace,A=\lbrace 1,3,5\rbrace, B=\lbrace3,4\rbrace$
 |Type|Example|
 ---|---
 Directed Graph(Digraph)|![ ](img/digraph.png)
-Martix| $M=\begin{bmatrix}T & T & F \\F & F& F \\T & T & T\end{bmatrix}$
+Martix| $M=\begin{bmatrix}T & T & F \\ F & F& F \\ T & T & T\end{bmatrix}$
 
 ### 3.3. *Unary relation 单元关系*
 
