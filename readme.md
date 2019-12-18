@@ -35,7 +35,7 @@
     - [3.9.1. Predecessors (我也不知道翻译是啥)(好了我知道了，是前元，感谢Ramos)](#391-predecessors-我也不知道翻译是啥好了我知道了是前元感谢ramos)
   - [3.10. Hasse diagram](#310-hasse-diagram)
   - [3.11. Total Order](#311-total-order)
-  - [Tutorial](#tutorial)
+  - [3.12. Tutorial](#312-tutorial)
 
 <!-- /TOC -->
 ## 1. Number Systems and Proof Techniques
@@ -255,7 +255,7 @@ partial order such that  $\forall x, y \in A, xRy \bigvee yRx$.
 
 - The Hasse diagram of a total order is a **chain**.
 
-### Tutorial
+### 3.12. Tutorial
 
 - For matrices, figure out the right way to read it. The first number is the horizontal coordinate (up to down); the second is the vertical coordinate(left to right).
 - A relation cannot be proved reflexive by combining transistive and symmetric, because there may not be all the elements in the relation compared with the set.9
